@@ -23,29 +23,47 @@ function App() {
 
       <Navbar />
 
-      <Hero
-        nombre="Marisol Torres"
-        descripcion="Analista Universitaria de Sistemas y desarrolladora Full Stack."
-        edad={26}
-        tecnologia="Python"
-      />
+        <main className="main-container">
+          <Hero
+            nombre="Marisol Torres"
+            descripcion="Analista Universitaria de Sistemas y desarrolladora Full Stack."
+            edad={26}
+            tecnologia="Python"
+          />
 
-      <section id="proyectos" className="projects-section">
-        <h2>Proyectos</h2>
+          <section id="proyectos" className="projects-section">
+            <h2>Proyectos</h2>
 
-        <div className="projects-container">
-          {
-            proyectos.map((proyecto) => (
-              <ProjectCard
-                key={proyecto.id}
-                titulo={proyecto.titulo}
-                descripcion={proyecto.descripcion}
-              />
-            ))
-          }
-        </div>
-      </section>
+            <div className="projects-container">
+              {
+                proyectos.map((proyecto) => (
+                  <ProjectCard
+                    key={proyecto.id}
+                    titulo={proyecto.titulo}
+                    descripcion={proyecto.descripcion}
+                  />
+                ))
+              }
+            </div>
+          </section>
 
+          <section id="tecnologias" className="tech-section">
+
+            <h2>Tecnologías</h2>
+
+            <div className="tech-container">
+
+              <span>Python</span>
+              <span>Flask</span>
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>SQL</span>
+              <span>.NET</span>
+
+            </div>
+
+          </section>
+      </main>
     </div>
   )
 }

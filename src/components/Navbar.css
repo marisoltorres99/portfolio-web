@@ -1,11 +1,20 @@
 .navbar {
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 20px 40px;
 
-  background-color: #1e1e1e;
+  background-color: rgba(30, 30, 30, 0.9);
+
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid #2c2c2c;
 }
 
 .navbar-logo {

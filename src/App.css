@@ -1,7 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background-color: #121212;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-section h2,
+.tech-section h2 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .projects-section {
@@ -17,4 +33,30 @@ body {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+.tech-section {
+  padding: 40px;
+}
+
+.tech-section h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.tech-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tech-container span {
+  background-color: #1e1e1e;
+  color: white;
+
+  padding: 10px 20px;
+
+  border-radius: 999px;
+
+  border: 1px solid #2c2c2c;
 }
