@@ -1,4 +1,5 @@
 import "./Hero.css"
+import { Code, Mail } from "lucide-react"
 
 function Hero({ nombre, descripcion, edad, tecnologia }) {
   return (
@@ -12,14 +13,6 @@ function Hero({ nombre, descripcion, edad, tecnologia }) {
         {descripcion}
       </p>
 
-      <div className="hero-buttons">
-
-        <a href="https://github.com/" target="_blank">GitHub</a>
-
-        <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
-
-      </div>
-
       <p>
         Edad: {edad}
       </p>
@@ -27,6 +20,26 @@ function Hero({ nombre, descripcion, edad, tecnologia }) {
       <p>
         Tecnología favorita: {tecnologia}
       </p>
+
+      <div className="hero-buttons">
+
+        <a
+          href="https://github.com/"
+          target="_blank"
+        >
+          <Code size={20} />
+          GitHub
+        </a>
+
+        <a
+          href="https://linkedin.com/"
+          target="_blank"
+        >
+          <Mail size={20} />
+          LinkedIn
+        </a>
+
+      </div>
 
     </section>
   )

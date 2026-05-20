@@ -13,6 +13,27 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+  }
+
+  .projects-container {
+    justify-content: center;
+  }
+
+}
+
 .projects-section h2,
 .tech-section h2 {
   color: white;

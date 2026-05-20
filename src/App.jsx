@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import ProjectCard from "./components/ProjectCard"
 import "./App.css"
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -64,6 +65,7 @@ function App() {
 
           </section>
       </main>
+      <Footer />
     </div>
   )
 }
