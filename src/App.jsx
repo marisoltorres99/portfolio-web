@@ -1,6 +1,7 @@
 import Hero from "./components/Hero"
 import ProjectCard from "./components/ProjectCard"
 import "./App.css"
+import Navbar from "./components/Navbar"
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
   return (
     <div>
 
+      <Navbar />
+
       <Hero
         nombre="Marisol Torres"
         descripcion="Analista Universitaria de Sistemas y desarrolladora Full Stack."
@@ -27,7 +30,7 @@ function App() {
         tecnologia="Python"
       />
 
-      <section className="projects-section">
+      <section id="proyectos" className="projects-section">
         <h2>Proyectos</h2>
 
         <div className="projects-container">
