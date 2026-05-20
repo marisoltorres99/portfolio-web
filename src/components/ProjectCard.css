@@ -1,0 +1,15 @@
+.project-card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  color: white;
+}
+
+.project-card h2 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #cfcfcf;
+}

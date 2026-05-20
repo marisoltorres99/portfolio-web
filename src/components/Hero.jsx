@@ -2,14 +2,24 @@ import "./Hero.css"
 
 function Hero({ nombre, descripcion, edad, tecnologia }) {
   return (
-    <section>
-      <h1>{nombre}</h1>
+    <section className="hero">
 
-      <p>{descripcion}</p>
+      <h1 className="hero-title">
+        {nombre}
+      </h1>
 
-      <p>{edad}</p>
+      <p className="hero-description">
+        {descripcion}
+      </p>
 
-      <p>{tecnologia}</p>
+      <p>
+        Edad: {edad}
+      </p>
+
+      <p>
+        Tecnología favorita: {tecnologia}
+      </p>
+
     </section>
   )
 }
