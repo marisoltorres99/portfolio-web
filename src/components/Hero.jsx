@@ -24,7 +24,7 @@ function Hero({ nombre, descripcion, edad, tecnologia }) {
       <div className="hero-buttons">
 
         <a
-          href="https://github.com/"
+          href="https://github.com/marisoltorres99"
           target="_blank"
         >
           <Code size={20} />
@@ -32,7 +32,7 @@ function Hero({ nombre, descripcion, edad, tecnologia }) {
         </a>
 
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/marisol-torres-088092217"
           target="_blank"
         >
           <Mail size={20} />
