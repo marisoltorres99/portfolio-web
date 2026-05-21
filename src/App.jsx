@@ -3,6 +3,8 @@ import ProjectCard from "./components/ProjectCard"
 import "./App.css"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
+import botGastosImg from "./assets/telegram-bot-1.png"
+import sistemaStockImg from "./assets/stock-1.png"
 
 function App() {
 
@@ -10,12 +12,20 @@ function App() {
     {
       id: 1,
       titulo: "Bot de Gastos",
-      descripcion: "Bot para registrar gastos desde Telegram."
+      descripcion: "Bot para registrar gastos desde Telegram.",
+      tecnologias: "Flask",
+      imagen: botGastosImg,
+      github: "https://github.com/lizastrappini/GastoBot",
+      demo: "https://t.me/misgastosappbot"
     },
     {
       id: 2,
       titulo: "Sistema de Stock",
-      descripcion: "Sistema de gestión de productos y ventas en Flask."
+      descripcion: "Sistema de gestión de productos y ventas en Flask.",
+      tecnologias: "Flask",
+      imagen: sistemaStockImg,
+      github: "https://github.com/marisoltorres99/GestionStock",
+      demo: "https://gestion-de-stock-49il.onrender.com/"
     }
   ]
 
@@ -42,6 +52,10 @@ function App() {
                     key={proyecto.id}
                     titulo={proyecto.titulo}
                     descripcion={proyecto.descripcion}
+                    tecnologias={proyecto.tecnologias}
+                    imagen={proyecto.imagen}
+                    github={proyecto.github}
+                    demo={proyecto.demo}
                   />
                 ))
               }
