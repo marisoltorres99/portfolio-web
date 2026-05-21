@@ -7,7 +7,17 @@ function ProjectCard({ titulo, descripcion, tecnologias, imagen, github, demo })
 
       <h2>{titulo}</h2>
 
-      <p>{tecnologias}</p>
+      <div className="tech-tags">
+
+        {
+          tecnologias.map((tech) => (
+            <span key={tech}>
+              {tech}
+            </span>
+          ))
+        }
+
+      </div>
 
       <p>{descripcion}</p>
 

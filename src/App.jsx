@@ -13,7 +13,7 @@ function App() {
       id: 1,
       titulo: "Bot de Gastos",
       descripcion: "Bot para registrar gastos desde Telegram.",
-      tecnologias: "Flask",
+      tecnologias: ["Python", "Flask"],
       imagen: botGastosImg,
       github: "https://github.com/lizastrappini/GastoBot",
       demo: "https://t.me/misgastosappbot"
@@ -22,7 +22,7 @@ function App() {
       id: 2,
       titulo: "Sistema de Stock",
       descripcion: "Sistema de gestión de productos y ventas en Flask.",
-      tecnologias: "Flask",
+      tecnologias: ["Python", "Flask"],
       imagen: sistemaStockImg,
       github: "https://github.com/marisoltorres99/GestionStock",
       demo: "https://gestion-de-stock-49il.onrender.com/"
@@ -39,7 +39,6 @@ function App() {
             nombre="Marisol Torres"
             descripcion="Analista Universitaria de Sistemas y desarrolladora Full Stack."
             edad={26}
-            tecnologia="Python"
           />
 
           <section id="proyectos" className="projects-section">

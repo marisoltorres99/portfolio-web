@@ -31,6 +31,7 @@
 .navbar-links a {
   color: white;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .navbar-links a:hover {
