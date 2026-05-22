@@ -15,7 +15,7 @@ function App() {
       descripcion: "Bot para registrar gastos desde Telegram.",
       tecnologias: ["Python", "Flask"],
       imagen: botGastosImg,
-      github: "https://github.com/lizastrappini/GastoBot",
+      github: "https://github.com/marisoltorres99/GastosBot",
       demo: "https://t.me/misgastosappbot"
     },
     {
