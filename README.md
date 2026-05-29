@@ -81,11 +81,3 @@ npm run build
 ## Deploy
 
 Deploy realizado con Vercel.
-
-## Autora
-
-Marisol Torres
-
-* Analista Universitaria de Sistemas
-* Estudiante de Ingeniería en Sistemas de Información
-* Desarrolladora Full Stack
