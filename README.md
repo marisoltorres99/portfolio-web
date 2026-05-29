@@ -1,16 +1,91 @@
-# React + Vite
+# Portfolio Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal desarrollado con React para mostrar proyectos, tecnologías y perfil profesional.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React
+* Vite
+* JavaScript
+* CSS
+* Lucide React
 
-## React Compiler
+## Características
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Diseño responsive
+* Navbar con navegación suave
+* Sección de presentación
+* Cards de proyectos con imágenes
+* Tecnologías utilizadas en cada proyecto
+* Links a GitHub y demos
+* Sección sobre mí
+* Educación y formación
+* Animaciones y efectos hover
 
-## Expanding the ESLint configuration
+## Proyectos incluidos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Bot de Gastos
+
+Bot de Telegram para registrar gastos diarios y generar reportes.
+
+Tecnologías:
+
+* Python
+* Flask
+* Telegram Bot API
+* SQLite
+
+### Sistema de Stock
+
+Sistema web para gestión de productos, ventas y control de stock.
+
+Tecnologías:
+
+* Python
+* Flask
+* SQLAlchemy
+* Bootstrap
+
+## Instalación y ejecución
+
+Clonar repositorio:
+
+```bash
+git clone <URL_DEL_REPOSITORIO>
+```
+
+Entrar a la carpeta del proyecto:
+
+```bash
+cd portfolio-web
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Iniciar servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+## Build de producción
+
+```bash
+npm run build
+```
+
+## Deploy
+
+Deploy realizado con Vercel.
+
+## Autora
+
+Marisol Torres
+
+* Analista Universitaria de Sistemas
+* Estudiante de Ingeniería en Sistemas de Información
+* Desarrolladora Full Stack
