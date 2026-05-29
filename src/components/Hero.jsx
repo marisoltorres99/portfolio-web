@@ -1,7 +1,7 @@
 import "./Hero.css"
 import { Code, Mail } from "lucide-react"
 
-function Hero({ nombre, descripcion, edad }) {
+function Hero({ nombre, descripcion }) {
   return (
     <section className="hero">
 
@@ -11,10 +11,6 @@ function Hero({ nombre, descripcion, edad }) {
 
       <p className="hero-description">
         {descripcion}
-      </p>
-
-      <p>
-        Edad: {edad}
       </p>
 
       <div className="hero-buttons">

@@ -38,8 +38,46 @@ function App() {
           <Hero
             nombre="Marisol Torres"
             descripcion="Analista Universitaria de Sistemas y desarrolladora Full Stack."
-            edad={26}
           />
+
+          <section className="about-section">
+
+            <h2>
+              Sobre mí
+            </h2>
+
+            <p>
+              Soy Analista Universitaria de Sistemas.
+              Me especializo en desarrollo Full Stack y disfruto crear aplicaciones web funcionales,
+              modernas y enfocadas en resolver problemas reales.
+            </p>
+
+            <p>
+              He trabajado en proyectos utilizando tecnologías como Python, Flask, React, .NET,
+              JavaScript y bases de datos SQL.
+            </p>
+
+          </section>
+
+          <section className="education-section">
+
+            <h2>
+              Educación
+            </h2>
+
+            <div className="education-card">
+
+              <h3>
+                Analista Universitaria de Sistemas
+              </h3>
+
+              <p>
+                Universidad Tecnológica Nacional
+              </p>
+
+            </div>
+
+          </section>
 
           <section id="proyectos" className="projects-section">
             <h2>Proyectos</h2>
